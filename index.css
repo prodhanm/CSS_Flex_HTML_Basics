@@ -7,8 +7,30 @@
     gap: 30px;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 89%;
+    margin: 30px auto;
+    padding-top: 5px;
+}
+
 img {
     width: 50ric;
     height: 30ric;
     margin-right: 10px;
+    align-items: center;
 }
+
+.noto-font {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400 bolder;
+    font-style: normal;
+    text-align: center;
+}
+
+
